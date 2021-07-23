@@ -5,7 +5,7 @@ module.exports = function (app) {
         "/api",
 
         createProxyMiddleware({
-            target: "https://myboiler-plate.herokuapp.com:443",
+            target: "http://localhost:5000",
 
             changeOrigin: true,
         })
